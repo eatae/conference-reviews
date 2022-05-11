@@ -13,11 +13,11 @@ php-cli
 
 
 Show:
-    sycrud:8080
+    con:8080
     (if change hosts file)
 
 Enter php-cli:
-    docker exec -it sycrud-php-cli bash
+    docker exec -it con-cli bash
 
 Docker-Compose up:
     docker-compose up --build -d
